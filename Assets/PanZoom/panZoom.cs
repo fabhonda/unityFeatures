@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //Credits to @AsToldByWaldo
-public class panZoom : MonoBehaviour
+public class PanZoom : MonoBehaviour
 {
 
     private bool AllowedToMove = false;

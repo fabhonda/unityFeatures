@@ -7,7 +7,7 @@ using UnityEngine.UI;
 using Button = UnityEngine.UI.Button;
 using Image = UnityEngine.UI.Image;
 
-public class changeTeam : MonoBehaviour
+public class ChangeTeam : MonoBehaviour
 {
 
     public int speed = 1;

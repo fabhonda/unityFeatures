@@ -493,9 +493,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 878544248}
-          m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
-          m_MethodName: zoomIn
-          m_Mode: 1
+          m_TargetAssemblyTypeName: HighlightButton, Assembly-CSharp
+          m_MethodName: zoom
+          m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -509,9 +509,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 878544248}
-          m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
-          m_MethodName: zoomOut
-          m_Mode: 1
+          m_TargetAssemblyTypeName: HighlightButton, Assembly-CSharp
+          m_MethodName: zoom
+          m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
