@@ -7,18 +7,19 @@ using UnityEngine.UI;
 
 public class SliderCountdown : MonoBehaviour
 {
-    public Text text;
+   
     public Slider slider;
     public float maxTime;
     private float time;
     private bool count = false;
 
+    
     void Start()
     {
         slider.maxValue = maxTime;
         time = maxTime;
         slider.value = slider.maxValue;
-        text.text = time.ToString();
+        //text.text = time.ToString();
     }
 
     void Update()
@@ -32,14 +33,14 @@ public class SliderCountdown : MonoBehaviour
         if (time > 0f)
         {
             time -= 1 * Time.deltaTime;
-            text.text = Mathf.FloorToInt(time).ToString();
+            //text.text = Mathf.FloorToInt(time).ToString();
             slider.value = time;
             changeColor(time);
         }
         else
         {
             time = 0;
-            text.text = time.ToString();
+            //text.text = time.ToString();
         }
 
     }
